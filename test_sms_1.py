@@ -1,4 +1,5 @@
-import datetime,time,sys,pyperclip,os
+import datetime,time,sys,os
+import pytz
 from twilio.rest import Client
 from datetime import datetime
 def time_exec():
