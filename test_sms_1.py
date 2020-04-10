@@ -8,7 +8,7 @@ def time_exec():
     return kolkata_current_datetime
     
 account_sid='AC2f2468c989641b3d8067ee150c5ed79c'
-auth_token="fd6ea242319f0d3df89d98a4d8286b07"
+auth_token="66f48233a75ac1d88608e8c210e70ff2"
 def send_msg(inputmsg):
 	client=Client(account_sid,auth_token)
 	client.messages.create(
